@@ -1,0 +1,53 @@
+﻿<html>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <head>
+        <title>Đăng ký</title>
+        <link rel="stylesheet" type="text/css" href="giaodien.css"/>
+    </head>
+    <body bgcolor="#000" background="nen.jpg">
+        <div id="manhinh">
+            <div id="tren">
+                <form action="controller/processform.php" method = post>
+                    Username <input type=text name="pass" size=15><br>
+                    Password <input type=password name="pass" size=15><br>
+                    <input type=submit name=submit value="Login"><br>
+                    <a href="dangky.html" target="_new">Đăng ký</a>
+                    <a href="vidu.html" target="_new">Quên mật khẩu</a>
+                </form>
+                <img src="mailinh.jpg" width="1200" height="200" border="0" alt="ERROR">
+            </div>
+            <div id="trai">
+                <h1>Giao dien ben trai</h1>
+            </div>
+            <div id="phai">
+                <form method="post" action="mailto:quakhoihai012@gmail.com">
+                    <br>
+                    Tên     : <br> <input type=text" size="30" name="ten">
+                    <br>
+                    Mật khẩu:<br> <input type=text" size="30" name="pass">
+                    <br>
+                    E-Mail:<br> <input type=text" size="30" name="e-mail">
+                    <br>
+                    Giới tính:<input type="radio" value="f" name="sex" checked> nữ <input type="radio" value="m" name="sex"> nam
+                    <br>
+                    Bạn thích:<input type="checkbox" value="Xem TV" name="TV"> xem TV <input type="checkbox" value="Doc sach" name="Book"> đọc sách
+                    <br>
+                    Quê quán: <select name="land"><option value="VN">Vietnam <option value="USA"> USA <option value="De"> Germany</select>
+                    Language: <select name="language"><option value="Viet">Viet <option value="Engl"> Anh <option value="Deutsch"> Duc</select>
+                    <br>
+                    Góp ý:<br> <textarea cols="35" rows="3" name="tin">Viết vào đây</textarea>
+                    <br>
+                    <input type="submit" value="send">
+                    <input type="reset" value="clear">
+                </form>
+            </div>
+            <div id="duoi">
+                <adress>
+                    Dia chi : 11T4, Khoa CNTT, Bach khoa Da Nang<br>
+                    SÐt     : 1234567890<br>
+                    Email   : quakhoihai012@gmail.com
+                </adress>
+            </div>
+        </div>
+    </body>
+</html>
